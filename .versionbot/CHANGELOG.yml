@@ -9829,7 +9829,7 @@
 
         The original issue is that when you specify a width/height, the actual
 
-        size that you get is slighly smaller, since the OS title bar is included
+        size that you get is slightly smaller, since the OS title bar is included
 
         in the size you provide.
 
