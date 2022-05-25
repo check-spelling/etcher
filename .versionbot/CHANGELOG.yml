@@ -5667,7 +5667,7 @@
       footers:
         change-type: patch
         signed-off-by: Lorenzo Alberto Maria Ambrosi <lorenzoa@resin.io>
-      subject: "fix(gui): Fix an inifinite digest loop trigger"
+      subject: "fix(gui): Fix an infinite digest loop trigger"
       body: |-
         This fixes a guard against infinite digest loop triggering
         that was erroneously dropped during a rebase.
