@@ -5181,7 +5181,7 @@
       subject: Change "Drive Contains Image" label.
       body: |-
         Use "Drive Mountpoint Contains Image" instead as the image may not be on
-        this drive but on a drive mounted in one of the mountpoins of this
+        this drive but on a drive mounted in one of the mountpoints of this
         drive.
         We still don't want to allow flashing this drive in that situation.
     - hash: 2dc4fef4d3c7a71ca66dc4c9be93f0ff12157469
