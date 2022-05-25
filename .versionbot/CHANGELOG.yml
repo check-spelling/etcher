@@ -3298,7 +3298,7 @@
       author: Alexis Svinartchouk
       footers:
         changelog-entry: Update electron to 7.1.11
-        chanege-type: patch
+        change-type: patch
       subject: Update electron to 7.1.11
       body: null
     - hash: 81e80572d8f7769d20d2854cbe6923e3483b11ac
