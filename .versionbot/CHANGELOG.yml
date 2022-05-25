@@ -10175,7 +10175,7 @@
         changelog-entry: Fix application stuck at "Finishing".
         signed-off-by: Juan Cruz Viotti <jviottidc@gmail.com>
         see: https://github.com/resin-io/etcher/issues/573
-      subject: Move Boostrap style customisations to a boostrap.scss file
+      subject: Move Bootstrap style customisations to a bootstrap.scss file
       body: null
     - hash: 447217db9f62ef91b7446e506c32d589254fad6b
       author: Juan Cruz Viotti
