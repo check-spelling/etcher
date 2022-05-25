@@ -3292,7 +3292,7 @@
       author: Alexis Svinartchouk
       footers:
         change-type: patch
-      subject: Update scripts submodule to prevent electon-mocha crashes on CI
+      subject: Update scripts submodule to prevent electron-mocha crashes on CI
       body: null
     - hash: 2aa6c83714e9557c86de3717bd3387dd0fb15e83
       author: Alexis Svinartchouk
@@ -10333,7 +10333,7 @@
         Since the Electron upgrade, Windows users are hitting a weird error
         about `global-shortcut` not existing.
         A solution is to `require('global-shortcut')` instead of accessing it as
-        a property of `electorn`.
+        a property of `electron`.
     - hash: 56ea1d183c0c320d72017897c9dff37eeb449f28
       author: Juan Cruz Viotti
       footers:
