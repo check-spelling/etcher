@@ -52,7 +52,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 # v1.7.3
 ## (2021-12-29)
 
-* patch: fix mesage of null [Peter Makra]
+* patch: fix message of null [Peter Makra]
 
 # v1.7.2
 ## (2021-12-21)
@@ -177,7 +177,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 * Use moduleIds: 'natural' in webpack config to keep js files in arm64 and x64 mac builds identical [Alexis Svinartchouk]
 * Update electron-builder to 22.10.5 [Alexis Svinartchouk]
 * Update spectron to v13 [Alexis Svinartchouk]
-* Update dependencies, use aws4-axios@2.2.1 to avoid adding more dependiencies [Alexis Svinartchouk]
+* Update dependencies, use aws4-axios@2.2.1 to avoid adding more dependencies [Alexis Svinartchouk]
 * Update scripts to build universal mac dmgs on the ci [Alexis Svinartchouk]
 * Fix beforeBuild.js script to also work on mac [Alexis Svinartchouk]
 * Support building universal dmgs (x64 and arm64) for mac [Alexis Svinartchouk]
@@ -410,7 +410,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 > ## rendition-18.13.3
 > ### (2020-11-16)
 > 
-> * Form: Remove the flaky Captcha sceenshot test [Thodoris Greasidis]
+> * Form: Remove the flaky Captcha screenshot test [Thodoris Greasidis]
 > * Update react-simplemde-editor & snapshots for upstream versions [Thodoris Greasidis]
 > 
 > ## rendition-18.13.2
@@ -1445,7 +1445,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Misc
 
-- Fixed broken Hombrew cask link for etcher
+- Fixed broken Homebrew cask link for etcher
 - Remove no longer used travis and appveyor configs
 
 ## v1.5.10 - 2019-03-12
@@ -2240,7 +2240,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixes
 
 - Improve drive selector modal.
-- Add dashed underline stlying to footer links.
+- Add dashed underline styling to footer links.
 
 ### Misc
 
@@ -2270,7 +2270,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Fix window being resizable on GNU/Linux.
 - Hide drive selector modal if no available drives.
 - Make drive selector modal react to drive auto-selection.
-- Improve UX when attempting to re-selecta single available drive.
+- Improve UX when attempting to re-select a single available drive.
 - Reset writer state on flash error.
 - Fix `stream.push() after EOF` error when flashing unaligned images.
 

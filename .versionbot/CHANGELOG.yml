@@ -184,7 +184,7 @@
   title: "'patch: updated electron to 12.2.3'"
   date: 2022-02-21T08:33:45.382Z
 - commits:
-    - subject: "patch: fix mesage of null"
+    - subject: "patch: fix message of null"
       hash: 9c1b55bebc1f7777ee830886c1999a72f082c17f
       body: ""
       footer:
@@ -469,7 +469,7 @@
       hash: 9f96558cdd11ce83dcc08289c31da425063eab24
       body: |
         I choose to add this part because, after the clean the usb stick
-        could stay in a raw state without creating the new partions,
+        could stay in a raw state without creating the new partitions,
         activating and formatting.
         Thanks
       footer:
@@ -775,7 +775,7 @@
       author: Alexis Svinartchouk
       nested: []
     - subject: Update dependencies, use aws4-axios@2.2.1 to avoid adding more
-        dependiencies
+        dependencies
       hash: c1d7ab3fa9e66b5c33a302c62c282d48e37dde54
       body: |
         Also filter out dmg-license dependencies from the shrinkwrap file
@@ -1681,7 +1681,7 @@
       author: Alexis Svinartchouk
       footers:
         change-type: patch
-      subject: Remove unused SafeWebvuew.refreshNow property
+      subject: Remove unused SafeWebview.refreshNow property
       body: null
     - hash: 8ed5ff25a5bafd73810f902a7974462538d16b2d
       author: Alexis Svinartchouk
@@ -1769,7 +1769,7 @@
     - hash: 6cb914e9697030136086d00ac2f87ce28582342c
       author: Alexis Svinartchouk
       footers:
-        chanelog-entry: Update etcher-sdk to v4.1.24
+        changelog-entry: Update etcher-sdk to v4.1.24
         change-type: patch
       subject: Update etcher-sdk to v4.1.24
       body: null
@@ -2404,7 +2404,7 @@
       author: Alexis Svinartchouk
       footers:
         change-type: patch
-      subject: Update @types/terser-webpack-plugini to ^3.0.0
+      subject: Update @types/terser-webpack-plugin to ^3.0.0
       body: null
 - version: 1.5.96
   date: 2020-06-03T13:04:33.000Z
@@ -2937,7 +2937,7 @@
       footers:
         change-type: patch
       subject: Update to README.md
-      body: Just a simple addition of instructionsfor proper installation on OpenSUSE
+      body: Just a simple addition of instructions for proper installation on OpenSUSE
         Linux.
     - hash: 7971a003cc2d86d31839407ea87d1e27e2eba653
       author: Alexis Svinartchouk
@@ -3084,7 +3084,7 @@
         change-type: patch
       subject: Fixes the Command for macOS drive recovery
       body: >-
-        Changes the documentation to update the disktutil command which didn't
+        Changes the documentation to update the diskutil command which didn't
         fix my case, cause the boot partition was broken.
 
         This way it rewrites the drive into a FAT32 partition editable in Unix/Windows.
@@ -3292,13 +3292,13 @@
       author: Alexis Svinartchouk
       footers:
         change-type: patch
-      subject: Update scripts submodule to prevent electon-mocha crashes on CI
+      subject: Update scripts submodule to prevent electron-mocha crashes on CI
       body: null
     - hash: 2aa6c83714e9557c86de3717bd3387dd0fb15e83
       author: Alexis Svinartchouk
       footers:
         changelog-entry: Update electron to 7.1.11
-        chanege-type: patch
+        change-type: patch
       subject: Update electron to 7.1.11
       body: null
     - hash: 81e80572d8f7769d20d2854cbe6923e3483b11ac
@@ -3563,7 +3563,7 @@
       author: Alexis Svinartchouk
       footers:
         change-type: patch
-      subject: Don't webpack package.json as analytics tokens are interted after
+      subject: Don't webpack package.json as analytics tokens are interested after
         webpacking
       body: null
 - version: 1.5.70
@@ -4737,10 +4737,10 @@
     - hash: 94e91723f4c47cf76797db906ffb33eb7071d2ff
       author: David Lozano Jarque
       footers:
-        changelog-entry: Fixed broken Hombrew cask link for etcher
+        changelog-entry: Fixed broken Homebrew cask link for etcher
         change-type: patch
       subject: Update PUBLISHING.md
-      body: Fixed broken Hombrew cask link for etcher
+      body: Fixed broken Homebrew cask link for etcher
 - version: 1.5.10
   date: 2019-03-12T15:29:01.000Z
   commits:
@@ -5052,7 +5052,7 @@
       subject: "fix(lib): Fix MIME type exclusion condition"
       body: |-
         As `mime.extension()` returns `false`, instead of `null` or `undefined`,
-        this condition simply needs to check for truthyness.
+        this condition simply needs to check for truthiness.
     - hash: a8f8c2cd859eb12432fdcb2331d0b4c42c1adc20
       author: Jonas Hermsmeier
       footers:
@@ -5181,7 +5181,7 @@
       subject: Change "Drive Contains Image" label.
       body: |-
         Use "Drive Mountpoint Contains Image" instead as the image may not be on
-        this drive but on a drive mounted in one of the mountpoins of this
+        this drive but on a drive mounted in one of the mountpoints of this
         drive.
         We still don't want to allow flashing this drive in that situation.
     - hash: 2dc4fef4d3c7a71ca66dc4c9be93f0ff12157469
@@ -5667,10 +5667,10 @@
       footers:
         change-type: patch
         signed-off-by: Lorenzo Alberto Maria Ambrosi <lorenzoa@resin.io>
-      subject: "fix(gui): Fix an inifinite digest loop trigger"
+      subject: "fix(gui): Fix an infinite digest loop trigger"
       body: |-
         This fixes a guard against infinite digest loop triggering
-        that was erronously dropped during a rebase.
+        that was erroneously dropped during a rebase.
     - hash: da23740f17da045827001d62259bdd066e528dc0
       author: Jonas Hermsmeier
       footers:
@@ -5687,7 +5687,7 @@
         signed-off-by: Alexis Svinartchouk <alexis@resin.io>
       subject: "fix(gui): Fix error with empty drive blacklist"
       body: |-
-        This fixes an error occuring if the drive blacklist
+        This fixes an error occurring if the drive blacklist
         is empty, and not split correctly
     - hash: f798fef2122fe1a96939dcd11070288a4731a360
       author: Benedict Aas
@@ -6211,7 +6211,7 @@
       subject: "fix(store): keep single warning-drives selected"
       body: |-
         We ensure that drive-image pairs with warnings don't get deselected when
-        there is only one drive available. This happenened because there was no
+        there is only one drive available. This happened because there was no
         check for any previous selected devices. Comes with a test case.
     - hash: a8bbe02e2114a03f461281b317c7ed0a57ef9c86
       author: Jonas Hermsmeier
@@ -6738,7 +6738,7 @@
         can easily ignore the whole subdirectory when creating production
         distributable packages.
         We now have a new make target called `webpack` that can be used to
-        create the GUI bundle. Such target will be called everytime a package is
+        create the GUI bundle. Such target will be called every time a package is
         generated.
     - hash: bcf0d80c4725c83ffe7840ae162d128ebd984225
       author: Benedict Aas
@@ -7052,7 +7052,7 @@
       subject: "feat(sdk): Move CLI writer logic into SDK writer"
       body: |-
         This moves the preparation logic from the CLI into the SDK
-        in preparation for further SDK rearchitecturing, and to allow
+        in preparation for further SDK rearchitecting, and to allow
         standalone usage of SDK.
     - hash: 3e4a234b2420870679108338fbab5e212625e9cb
       author: Andrew Scheller
@@ -7488,7 +7488,7 @@
         This was causing the stdout maxBuffer size to be exceeded
         when flashing larger images (or having flashes that took a while).
         Change-Type: patch
-        Changlog Entry: Fix "stdout maxBuffer exceeded" error on Linux
+        Changelog Entry: Fix "stdout maxBuffer exceeded" error on Linux
     - hash: 1d85d122eb980afe42bd9c26ae06b2e6b4b97a38
       author: Jonas Hermsmeier
       footers:
@@ -8013,7 +8013,7 @@
       author: Benedict Aas
       footers:
         change-type: none
-      subject: remove debugging conditonals
+      subject: remove debugging conditionals
       body: null
     - hash: f3f800df7fd50ecf346f1515cab75bf0cbf6d2ee
       author: Juan Cruz Viotti
@@ -8624,7 +8624,7 @@
       body: |-
         As recently several people have been asking for things
         that are described in `RUNNING-LOCALLY.md`, but couldn't be
-        found in the `CONTRIBUTING.md`, this consilidates the two into
+        found in the `CONTRIBUTING.md`, this consolidated the two into
         one single resource to look for on how to get started developing.
     - hash: f4778955df8ff33397164b2337ef7d645c4e9c60
       author: Juan Cruz Viotti
@@ -9081,7 +9081,7 @@
       author: Dhruv Paranjape
       footers:
         change-type: patch
-      subject: remove electron installer redhat from optional dependancies and add it
+      subject: remove electron installer redhat from optional dependencies and add it
         to dockerfiles. also remove variable ELECTRON-INSTALLER-REDHAT inline
         with electron installer debian script.
       body: null
@@ -9491,7 +9491,7 @@
         packagers to tweak the `updates.enabled` property of the package.json
         file, which is set to `true` by default.
         We don't want to encourage end users to disable the update mechanism, so
-        the documention was removed from `USER-DOCUMENTATION.md`. This option
+        the documentation was removed from `USER-DOCUMENTATION.md`. This option
         will remain as something only packagers should tweak.
     - hash: a15b2f7e509906436c57ff11c528c490f447c66e
       author: Juan Cruz Viotti
@@ -9829,7 +9829,7 @@
 
         The original issue is that when you specify a width/height, the actual
 
-        size that you get is slighly smaller, since the OS title bar is included
+        size that you get is slightly smaller, since the OS title bar is included
 
         in the size you provide.
 
@@ -9850,7 +9850,7 @@
       body: |-
         On Electron, the user can click and press over a button,
         then move the mouse away from the button and release,
-        and the button will erroneusly keep the `:focus` state style.
+        and the button will erroneously keep the `:focus` state style.
         The current workaround consists of:
         - Iterate through all the Bootstrap button styles.
         - Set the default 'background', `color` and `border-color` to match the
@@ -9903,7 +9903,7 @@
       body: null
       footers:
         change-type: patch
-        changelog-entry: Add referers to the etcher.io links
+        changelog-entry: Add referrers to the etcher.io links
         signed-off-by: Juan Cruz Viotti <jviottidc@gmail.com>
         see: https://github.com/resin-io/etcher/issues/632
         closes: https://github.com/resin-io/etcher/issues/987
@@ -10175,7 +10175,7 @@
         changelog-entry: Fix application stuck at "Finishing".
         signed-off-by: Juan Cruz Viotti <jviottidc@gmail.com>
         see: https://github.com/resin-io/etcher/issues/573
-      subject: Move Boostrap style customisations to a boostrap.scss file
+      subject: Move Bootstrap style customisations to a bootstrap.scss file
       body: null
     - hash: 447217db9f62ef91b7446e506c32d589254fad6b
       author: Juan Cruz Viotti
@@ -10333,7 +10333,7 @@
         Since the Electron upgrade, Windows users are hitting a weird error
         about `global-shortcut` not existing.
         A solution is to `require('global-shortcut')` instead of accessing it as
-        a property of `electorn`.
+        a property of `electron`.
     - hash: 56ea1d183c0c320d72017897c9dff37eeb449f28
       author: Juan Cruz Viotti
       footers:
@@ -10356,7 +10356,7 @@
         changelog-entry: Fix Etcher leaving zombie processes behind in GNU/Linux.
       subject: Upgrade Electron to v0.37.6
       body: |-
-        The main motiviation for such upgrade is that an error manifesting
+        The main motivation for such upgrade is that an error manifesting
         itself as `Cannot read property 'object' of undefined` on certain Linux
         systems was fixed in v0.37.4.
         See https://github.com/electron/electron/issues/5229
@@ -10925,7 +10925,7 @@
         window, causing the window content to overflow and get
         pushed to the bottom.
         The `!important` flag is needed since UI Bootstrap inlines
-        the styles programatically to the element.
+        the styles programmatically to the element.
     - hash: 64393ef073131a26a9cf3647aff4cb3a50287ac5
       author: Juan Cruz Viotti
       footers:
