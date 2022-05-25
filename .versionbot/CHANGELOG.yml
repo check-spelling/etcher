@@ -9903,7 +9903,7 @@
       body: null
       footers:
         change-type: patch
-        changelog-entry: Add referers to the etcher.io links
+        changelog-entry: Add referrers to the etcher.io links
         signed-off-by: Juan Cruz Viotti <jviottidc@gmail.com>
         see: https://github.com/resin-io/etcher/issues/632
         closes: https://github.com/resin-io/etcher/issues/987
