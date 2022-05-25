@@ -2240,7 +2240,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixes
 
 - Improve drive selector modal.
-- Add dashed underline stlying to footer links.
+- Add dashed underline styling to footer links.
 
 ### Misc
 
