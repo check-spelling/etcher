@@ -10356,7 +10356,7 @@
         changelog-entry: Fix Etcher leaving zombie processes behind in GNU/Linux.
       subject: Upgrade Electron to v0.37.6
       body: |-
-        The main motiviation for such upgrade is that an error manifesting
+        The main motivation for such upgrade is that an error manifesting
         itself as `Cannot read property 'object' of undefined` on certain Linux
         systems was fixed in v0.37.4.
         See https://github.com/electron/electron/issues/5229
