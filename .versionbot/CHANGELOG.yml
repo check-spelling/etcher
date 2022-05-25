@@ -2937,7 +2937,7 @@
       footers:
         change-type: patch
       subject: Update to README.md
-      body: Just a simple addition of instructionsfor proper installation on OpenSUSE
+      body: Just a simple addition of instructions for proper installation on OpenSUSE
         Linux.
     - hash: 7971a003cc2d86d31839407ea87d1e27e2eba653
       author: Alexis Svinartchouk
