@@ -469,7 +469,7 @@
       hash: 9f96558cdd11ce83dcc08289c31da425063eab24
       body: |
         I choose to add this part because, after the clean the usb stick
-        could stay in a raw state without creating the new partions,
+        could stay in a raw state without creating the new partitions,
         activating and formatting.
         Thanks
       footer:
