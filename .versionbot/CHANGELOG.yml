@@ -3563,7 +3563,7 @@
       author: Alexis Svinartchouk
       footers:
         change-type: patch
-      subject: Don't webpack package.json as analytics tokens are interted after
+      subject: Don't webpack package.json as analytics tokens are interested after
         webpacking
       body: null
 - version: 1.5.70
