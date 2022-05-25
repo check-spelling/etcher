@@ -2270,7 +2270,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Fix window being resizable on GNU/Linux.
 - Hide drive selector modal if no available drives.
 - Make drive selector modal react to drive auto-selection.
-- Improve UX when attempting to re-selecta single available drive.
+- Improve UX when attempting to re-select a single available drive.
 - Reset writer state on flash error.
 - Fix `stream.push() after EOF` error when flashing unaligned images.
 
