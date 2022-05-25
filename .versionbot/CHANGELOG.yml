@@ -3084,7 +3084,7 @@
         change-type: patch
       subject: Fixes the Command for macOS drive recovery
       body: >-
-        Changes the documentation to update the disktutil command which didn't
+        Changes the documentation to update the diskutil command which didn't
         fix my case, cause the boot partition was broken.
 
         This way it rewrites the drive into a FAT32 partition editable in Unix/Windows.
