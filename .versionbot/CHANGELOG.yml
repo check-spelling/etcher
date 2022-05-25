@@ -10925,7 +10925,7 @@
         window, causing the window content to overflow and get
         pushed to the bottom.
         The `!important` flag is needed since UI Bootstrap inlines
-        the styles programatically to the element.
+        the styles programmatically to the element.
     - hash: 64393ef073131a26a9cf3647aff4cb3a50287ac5
       author: Juan Cruz Viotti
       footers:
