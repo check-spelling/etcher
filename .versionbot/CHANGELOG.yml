@@ -9491,7 +9491,7 @@
         packagers to tweak the `updates.enabled` property of the package.json
         file, which is set to `true` by default.
         We don't want to encourage end users to disable the update mechanism, so
-        the documention was removed from `USER-DOCUMENTATION.md`. This option
+        the documentation was removed from `USER-DOCUMENTATION.md`. This option
         will remain as something only packagers should tweak.
     - hash: a15b2f7e509906436c57ff11c528c490f447c66e
       author: Juan Cruz Viotti
