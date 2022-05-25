@@ -7052,7 +7052,7 @@
       subject: "feat(sdk): Move CLI writer logic into SDK writer"
       body: |-
         This moves the preparation logic from the CLI into the SDK
-        in preparation for further SDK rearchitecturing, and to allow
+        in preparation for further SDK rearchitecting, and to allow
         standalone usage of SDK.
     - hash: 3e4a234b2420870679108338fbab5e212625e9cb
       author: Andrew Scheller
