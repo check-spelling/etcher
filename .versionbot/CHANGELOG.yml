@@ -6738,7 +6738,7 @@
         can easily ignore the whole subdirectory when creating production
         distributable packages.
         We now have a new make target called `webpack` that can be used to
-        create the GUI bundle. Such target will be called everytime a package is
+        create the GUI bundle. Such target will be called every time a package is
         generated.
     - hash: bcf0d80c4725c83ffe7840ae162d128ebd984225
       author: Benedict Aas
