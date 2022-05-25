@@ -775,7 +775,7 @@
       author: Alexis Svinartchouk
       nested: []
     - subject: Update dependencies, use aws4-axios@2.2.1 to avoid adding more
-        dependiencies
+        dependencies
       hash: c1d7ab3fa9e66b5c33a302c62c282d48e37dde54
       body: |
         Also filter out dmg-license dependencies from the shrinkwrap file
@@ -9081,7 +9081,7 @@
       author: Dhruv Paranjape
       footers:
         change-type: patch
-      subject: remove electron installer redhat from optional dependancies and add it
+      subject: remove electron installer redhat from optional dependencies and add it
         to dockerfiles. also remove variable ELECTRON-INSTALLER-REDHAT inline
         with electron installer debian script.
       body: null

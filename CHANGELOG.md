@@ -177,7 +177,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 * Use moduleIds: 'natural' in webpack config to keep js files in arm64 and x64 mac builds identical [Alexis Svinartchouk]
 * Update electron-builder to 22.10.5 [Alexis Svinartchouk]
 * Update spectron to v13 [Alexis Svinartchouk]
-* Update dependencies, use aws4-axios@2.2.1 to avoid adding more dependiencies [Alexis Svinartchouk]
+* Update dependencies, use aws4-axios@2.2.1 to avoid adding more dependencies [Alexis Svinartchouk]
 * Update scripts to build universal mac dmgs on the ci [Alexis Svinartchouk]
 * Fix beforeBuild.js script to also work on mac [Alexis Svinartchouk]
 * Support building universal dmgs (x64 and arm64) for mac [Alexis Svinartchouk]
