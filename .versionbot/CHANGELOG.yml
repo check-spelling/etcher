@@ -1681,7 +1681,7 @@
       author: Alexis Svinartchouk
       footers:
         change-type: patch
-      subject: Remove unused SafeWebvuew.refreshNow property
+      subject: Remove unused SafeWebview.refreshNow property
       body: null
     - hash: 8ed5ff25a5bafd73810f902a7974462538d16b2d
       author: Alexis Svinartchouk
