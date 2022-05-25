@@ -4737,10 +4737,10 @@
     - hash: 94e91723f4c47cf76797db906ffb33eb7071d2ff
       author: David Lozano Jarque
       footers:
-        changelog-entry: Fixed broken Hombrew cask link for etcher
+        changelog-entry: Fixed broken Homebrew cask link for etcher
         change-type: patch
       subject: Update PUBLISHING.md
-      body: Fixed broken Hombrew cask link for etcher
+      body: Fixed broken Homebrew cask link for etcher
 - version: 1.5.10
   date: 2019-03-12T15:29:01.000Z
   commits:

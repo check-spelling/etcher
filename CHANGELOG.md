@@ -1445,7 +1445,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Misc
 
-- Fixed broken Hombrew cask link for etcher
+- Fixed broken Homebrew cask link for etcher
 - Remove no longer used travis and appveyor configs
 
 ## v1.5.10 - 2019-03-12
