@@ -5670,7 +5670,7 @@
       subject: "fix(gui): Fix an inifinite digest loop trigger"
       body: |-
         This fixes a guard against infinite digest loop triggering
-        that was erronously dropped during a rebase.
+        that was erroneously dropped during a rebase.
     - hash: da23740f17da045827001d62259bdd066e528dc0
       author: Jonas Hermsmeier
       footers:
@@ -9850,7 +9850,7 @@
       body: |-
         On Electron, the user can click and press over a button,
         then move the mouse away from the button and release,
-        and the button will erroneusly keep the `:focus` state style.
+        and the button will erroneously keep the `:focus` state style.
         The current workaround consists of:
         - Iterate through all the Bootstrap button styles.
         - Set the default 'background', `color` and `border-color` to match the
