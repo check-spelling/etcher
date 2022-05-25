@@ -219,7 +219,7 @@ feat(GUI): implement update notifier functionality
 Auto-update functionality is not ready for usage. As a workaround to
 prevent users staying with older versions, we now check for updates at
 startup, and if the user is not running the latest version, we present a
-modal informing the user of the availiblity of a new version, and
+modal informing the user of the availability of a new version, and
 provide a call to action to open the Etcher website in his web browser.
 
 Extra features:
