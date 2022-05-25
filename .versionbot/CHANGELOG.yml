@@ -5687,7 +5687,7 @@
         signed-off-by: Alexis Svinartchouk <alexis@resin.io>
       subject: "fix(gui): Fix error with empty drive blacklist"
       body: |-
-        This fixes an error occuring if the drive blacklist
+        This fixes an error occurring if the drive blacklist
         is empty, and not split correctly
     - hash: f798fef2122fe1a96939dcd11070288a4731a360
       author: Benedict Aas
