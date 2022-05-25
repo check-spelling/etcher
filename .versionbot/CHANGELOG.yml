@@ -2404,7 +2404,7 @@
       author: Alexis Svinartchouk
       footers:
         change-type: patch
-      subject: Update @types/terser-webpack-plugini to ^3.0.0
+      subject: Update @types/terser-webpack-plugin to ^3.0.0
       body: null
 - version: 1.5.96
   date: 2020-06-03T13:04:33.000Z
