@@ -8624,7 +8624,7 @@
       body: |-
         As recently several people have been asking for things
         that are described in `RUNNING-LOCALLY.md`, but couldn't be
-        found in the `CONTRIBUTING.md`, this consilidates the two into
+        found in the `CONTRIBUTING.md`, this consolidated the two into
         one single resource to look for on how to get started developing.
     - hash: f4778955df8ff33397164b2337ef7d645c4e9c60
       author: Juan Cruz Viotti
