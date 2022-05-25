@@ -5052,7 +5052,7 @@
       subject: "fix(lib): Fix MIME type exclusion condition"
       body: |-
         As `mime.extension()` returns `false`, instead of `null` or `undefined`,
-        this condition simply needs to check for truthyness.
+        this condition simply needs to check for truthiness.
     - hash: a8f8c2cd859eb12432fdcb2331d0b4c42c1adc20
       author: Jonas Hermsmeier
       footers:
