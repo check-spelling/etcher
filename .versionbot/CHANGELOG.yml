@@ -6211,7 +6211,7 @@
       subject: "fix(store): keep single warning-drives selected"
       body: |-
         We ensure that drive-image pairs with warnings don't get deselected when
-        there is only one drive available. This happenened because there was no
+        there is only one drive available. This happened because there was no
         check for any previous selected devices. Comes with a test case.
     - hash: a8bbe02e2114a03f461281b317c7ed0a57ef9c86
       author: Jonas Hermsmeier
