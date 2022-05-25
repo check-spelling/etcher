@@ -1769,7 +1769,7 @@
     - hash: 6cb914e9697030136086d00ac2f87ce28582342c
       author: Alexis Svinartchouk
       footers:
-        chanelog-entry: Update etcher-sdk to v4.1.24
+        changelog-entry: Update etcher-sdk to v4.1.24
         change-type: patch
       subject: Update etcher-sdk to v4.1.24
       body: null
@@ -7488,7 +7488,7 @@
         This was causing the stdout maxBuffer size to be exceeded
         when flashing larger images (or having flashes that took a while).
         Change-Type: patch
-        Changlog Entry: Fix "stdout maxBuffer exceeded" error on Linux
+        Changelog Entry: Fix "stdout maxBuffer exceeded" error on Linux
     - hash: 1d85d122eb980afe42bd9c26ae06b2e6b4b97a38
       author: Jonas Hermsmeier
       footers:
