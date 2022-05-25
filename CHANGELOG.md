@@ -410,7 +410,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 > ## rendition-18.13.3
 > ### (2020-11-16)
 > 
-> * Form: Remove the flaky Captcha sceenshot test [Thodoris Greasidis]
+> * Form: Remove the flaky Captcha screenshot test [Thodoris Greasidis]
 > * Update react-simplemde-editor & snapshots for upstream versions [Thodoris Greasidis]
 > 
 > ## rendition-18.13.2
