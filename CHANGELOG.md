@@ -52,7 +52,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 # v1.7.3
 ## (2021-12-29)
 
-* patch: fix mesage of null [Peter Makra]
+* patch: fix message of null [Peter Makra]
 
 # v1.7.2
 ## (2021-12-21)

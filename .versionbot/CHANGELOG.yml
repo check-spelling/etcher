@@ -184,7 +184,7 @@
   title: "'patch: updated electron to 12.2.3'"
   date: 2022-02-21T08:33:45.382Z
 - commits:
-    - subject: "patch: fix mesage of null"
+    - subject: "patch: fix message of null"
       hash: 9c1b55bebc1f7777ee830886c1999a72f082c17f
       body: ""
       footer:
